@@ -10,4 +10,4 @@ including P wave, QRS wave, T wave
 ecg : raw ECG signal vector
 fs : sampling frequency
 ###### Outputs
-the estimated wave index ratio of the sample number within one heart impulse
+the estimated wave index
