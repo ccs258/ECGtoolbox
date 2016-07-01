@@ -8,6 +8,8 @@ including P wave, QRS wave, T wave
 
 ###### Inputs
 ecg : raw ECG signal vector
+
 fs : sampling frequency
+
 ###### Outputs
 the estimated wave index
