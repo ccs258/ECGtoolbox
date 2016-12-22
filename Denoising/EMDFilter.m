@@ -6,10 +6,10 @@ function [y,imfp]=EMDFilter(x,allimf)
 % y is the output signal
 % imfp is the reconstructed first several imfs
 %% EMD filtering for ECG signals
-%Refs£º
+%RefsÂ£Âº
 %B. Weng, M. Blanco-Velasco, and K. E. Barner, 
-%¡°ECG denoising based on the empirical mode decomposition.,¡± 
-%Ieee Embc, vol. 1, pp. 1¨C4, 2006.
+%Â¡Â°ECG denoising based on the empirical mode decomposition.,Â¡Â± 
+%Ieee Embc, vol. 1, pp. 1Â¨C4, 2006.
 
 %%
 N=length(allimf);
@@ -52,7 +52,6 @@ for i=1:4
         ylabel(sprintf('imf%d',i));
         subplot(212)
         plot(imfp);
-        title('imfp')
         ylabel(sprintf('imfp%d',i));
         
         y=y+imfp;
